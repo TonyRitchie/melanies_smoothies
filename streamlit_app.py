@@ -12,8 +12,8 @@ st.write(
   """
 )
 
-name_on_order = st.text_input ("Smoothie imbiber")
-st.write ("The current Smoothie imbiber is ",name_on_order)
+name_on_order = st.text_input ("Your name please")
+st.write ("The current Smoothie order is for: ",name_on_order)
 
 cnx=st.connection("snowflake")
 session = cnx.session()
